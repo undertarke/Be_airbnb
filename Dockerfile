@@ -1,5 +1,7 @@
-FROM nginx
+FROM mcr.microsoft.com/dotnet/aspnet:2.1
 
-WORKDIR /usr/share/nginx/html
+WORKDIR /App
 
-COPY . .
+COPY . /App
+
+ENTRYPOINT ["dotnet", "SoloDevApp.Api.dll"]
