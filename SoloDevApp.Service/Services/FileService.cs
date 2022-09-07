@@ -57,17 +57,17 @@ namespace SoloDevApp.Service.Services
                 File.Delete(path);
             }
 
-            //using (var stream = new FileStream(path, FileMode.Create))
-            //{
-            //    await file.CopyToAsync(stream);
-            //}
+            /*   using (var stream = new FileStream(path, FileMode.Create))
+               {
+                  await file.CopyToAsync(stream);
+               }*/
 
             //toi uu hoa hinh anh > 500Kb
-          
+
             Image myImage = Image.FromStream(file.OpenReadStream(), true, true);
             // Save the image with a quality of 50% 
             SaveJpeg(path, myImage, 20);
-          
+
 
             return $"/{folder}/{fileName}";
         }

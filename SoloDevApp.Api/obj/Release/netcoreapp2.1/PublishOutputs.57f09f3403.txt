@@ -1,5 +1,6 @@
 D:\source\Be_airbnb\SoloDevApp.Api\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\.DS_Store
 D:\source\Be_airbnb\SoloDevApp.Api\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\avatar\.DS_Store
+D:\source\Be_airbnb\SoloDevApp.Api\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\avatar\tree.jpg
 D:\source\Be_airbnb\SoloDevApp.Api\obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\.DS_Store
 D:\source\Be_airbnb\SoloDevApp.Api\obj\Release\netcoreapp2.1\PubTmp\Out\appsettings.Development.json
 D:\source\Be_airbnb\SoloDevApp.Api\obj\Release\netcoreapp2.1\PubTmp\Out\appsettings.json
