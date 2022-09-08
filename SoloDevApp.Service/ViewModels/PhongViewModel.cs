@@ -23,7 +23,7 @@ namespace SoloDevApp.Service.ViewModels
         public bool BanUi { get; set; }
         public int MaViTri { get; set; }
 
-        public bool HinhAnh { get; set; }
+        public string HinhAnh { get; set; }
 
     }
 
