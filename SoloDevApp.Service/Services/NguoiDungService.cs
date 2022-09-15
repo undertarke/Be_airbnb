@@ -214,7 +214,7 @@ namespace SoloDevApp.Service.Services
                 nguoiDung.Password = model.Password;
                 nguoiDung.Birthday = model.Birthday;
                 nguoiDung.Gender = model.Gender;
-                nguoiDung.Role = "USER";
+                nguoiDung.Role = model.Role;
 
                 await _nguoiDungRepository.InsertAsync(nguoiDung);
 
@@ -247,7 +247,7 @@ namespace SoloDevApp.Service.Services
 
                 nguoiDung.Birthday = model.Birthday;
                 nguoiDung.Gender = model.Gender;
-                nguoiDung.Role = "USER";
+                nguoiDung.Role = model.Role;
   
 
                 await _nguoiDungRepository.UpdateAsync(nguoiDung.Id, nguoiDung);
