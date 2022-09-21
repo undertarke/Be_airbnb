@@ -6,6 +6,6 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\source\Be_airbnb\SoloDevApp.Api\bin/Release/netcoreapp2.1/publish</_PublishTargetUrl>
-    <History>True|2022-09-21T07:51:00.0339218Z;True|2022-09-15T15:41:33.1651982+07:00;True|2022-09-15T15:39:09.2239825+07:00;</History>
+    <History>True|2022-09-21T08:21:59.9323529Z;True|2022-09-21T14:51:00.0339218+07:00;True|2022-09-15T15:41:33.1651982+07:00;True|2022-09-15T15:39:09.2239825+07:00;</History>
   </PropertyGroup>
 </Project>
