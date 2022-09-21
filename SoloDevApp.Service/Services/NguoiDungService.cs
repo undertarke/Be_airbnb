@@ -177,6 +177,7 @@ namespace SoloDevApp.Service.Services
                 foreach (NguoiDung nguoiDung in dsNguoiDung)
                 {
                     NguoiDungViewModel nguoiDungNew = new NguoiDungViewModel();
+                    nguoiDungNew.Id= nguoiDung.Id;
                     nguoiDungNew.Name = nguoiDung.Name;
                     nguoiDungNew.Email = nguoiDung.Email;
                     nguoiDungNew.Password = "";
