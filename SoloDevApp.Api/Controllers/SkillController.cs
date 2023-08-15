@@ -18,11 +18,12 @@ namespace SoloDevApp.Api.Controllers
             _skillService = skillService;
         }
 
-       [HttpGet]
-        public async Task<IActionResult> Get()
-        {
-            return await _skillService.GetAllAsync();
-        }
+       //[HttpGet]
+       // public async Task<IActionResult> Get()
+       // {
+       //     return await _skillService.GetAllAsync();
+       // }
+
        /*
         [HttpGet("phan-trang")]
         public async Task<IActionResult> GetPaging(int pageIndex, int pageSize, string keyword)
